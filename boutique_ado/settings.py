@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-leonardosim-boutiqueado-kil9wgo3c5c.ws-eu98.gitpod.io']
 
 
 # Application definition
@@ -80,6 +80,8 @@ TEMPLATES = [
         },
     },
 ]
+
+MESSAGES_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
