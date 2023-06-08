@@ -28,7 +28,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-leonardosim-boutiqueado-kil9wgo3c5c.ws-eu98.gitpod.io']
+ALLOWED_HOSTS = [
+    '8000-leonardosim-boutiqueado-kil9wgo3c5c.ws-eu98.gitpod.io',
+    '8000-leonardosim-boutiqueado-kil9wgo3c5c.ws-eu99.gitpod.io']
 
 
 # Application definition
